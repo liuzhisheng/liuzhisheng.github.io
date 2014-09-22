@@ -1,1 +1,25 @@
-baseurl: /liuzhisheng.github.io
+markdown: redcarpet
+permalink: /:categories/:title.html
+url: 
+lsi: false
+pygments: true
+safe: true
+auto: false 
+
+paginate: 8
+paginate_path: "page:num"
+
+# presonal config
+title: Zhisheng Liu's Blog
+description: Zhisheng Liu's Blog, powered by Jekyll...
+feed: http://liuzhisheng.github.io/atom.xml
+
+author: Zhisheng Liu
+
+seo: 
+  keyword: 
+  description: 
+config:
+  js_dir:
+  img_dir:
+  css_dir:
