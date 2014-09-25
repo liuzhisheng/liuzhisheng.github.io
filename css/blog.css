@@ -4,18 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-
-footer {
-    margin: 50px 0;
-}
-
-.post-date{
-	float:right;
-	padding:5px;
-	font-size:12px
-}
+body {padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */}
+footer {margin: 30px 0;}
+.post-date{float:right;padding:5px;font-size:12px}
 .myh2{font-size:22px}
+#ds-thread #ds-reset .ds-powered-by {display: none !important;}
 

@@ -19,7 +19,7 @@ title: "首页"
   {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
   <li class="previous">
     <a href="{{ site.url }}/">
-      &larr; Older
+      &larr; 上一页
     </a>
   </li>
   {% else %}
@@ -31,7 +31,7 @@ title: "首页"
   {% endif %} {% endif %} {% if paginator.next_page %}
   <li class="next">
     <a href="{{ site.url }}/page{{ paginator.next_page }}">
-      Newer &rarr;
+     下一页 &rarr;
     </a>
   </li>
   {% endif %}
