@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h2>分类:&nbsp;&nbsp{{ page.category }}</h2>
+{% for post in site.categories.[page.category] %}
+<h2 class="myh2">
+  <a href="{{ post.url }}">
+    {{ post.title }}
+  </a> 
+  <div class="post-date">
+	<span class="glyphicon glyphicon-time"></span>
+	{{ post.date | date: '%Y-%m-%d' }}
+  </div>
+</h2>
+<hr/>
+{% endfor %}                   

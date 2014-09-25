@@ -1,20 +1,20 @@
 markdown: redcarpet
-permalink: /:categories/:title.html
+#permalink: /:categories/:title.html
 url: 
 lsi: false
-pygments: true
-safe: true
+highlighter: pygments
+safe: false
 auto: false 
 
 paginate: 8
 paginate_path: "page:num"
 
 # presonal config
-title: Zhisheng Liu's Blog
-description: Zhisheng Liu's Blog, powered by Jekyll...
+title: 网魂的博客
+description: 网魂的博客
 feed: http://liuzhisheng.github.io/atom.xml
 
-author: Zhisheng Liu
+author: 刘志胜
 
 seo: 
   keyword: 
