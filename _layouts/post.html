@@ -1,47 +1,38 @@
 --- 
-layout: default 
+layout: default
+cattop: true
+relatedposts: true
+comment: true
 --- 
 <!-- Blog Post -->
 <!-- Title -->
-<h2>
-  {{ page.title }}
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	{{ page.date | date: '%Y-%m-%d' }}
-  </div>
-</h2>
-<!-- Author -->
-<hr>
-{{ content }}
+<article>
+	<h2>
+	  {{ page.title }}
+	  <div class="post-date">
+		<span class="glyphicon glyphicon-time"></span>
+		{{ page.date | date: '%Y-%m-%d' }}
+	  </div>
+	</h2>
+	<hr>
+	<p>{{ content }}</p>
+</article>
 <br/>
 <div style="margin-top:10px;margin-bottom:10px">
-  {%if page.previous%}
-  <span class="next">
-    上篇：
-    <a href="{{page.previous.url}}">
-      {{page.previous.title}}
-    </a>
-  </span>
-  {%endif%} 
-  {%if page.next%}
-  <span class="prev">
-    下篇：
-    <a href="{{page.next.url}}">
-      {{page.next.title}}
-    </a>
-  </span>
-  {%endif%}
+  <ul class="list-unstyled">{%if page.previous%}
+    <li class="next">
+      上篇：
+      <a href="{{page.previous.url}}">
+        {{page.previous.title}}
+      </a>
+    </li>{%endif%} 
+    {%if page.next%}
+    <li class="prev">
+      下篇：
+      <a href="{{page.next.url}}">
+        {{page.next.title}}
+      </a>
+    </li>{%endif%}
+  </ul>
 </div>
 <hr>
-<div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"liuzs"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-</script>

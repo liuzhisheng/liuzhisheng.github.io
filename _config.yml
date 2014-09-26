@@ -1,6 +1,5 @@
 markdown: redcarpet
-#permalink: /:categories/:title.html
-url: 
+permalink: /:year/:month/:day/:title.html
 lsi: false
 highlighter: pygments
 safe: false

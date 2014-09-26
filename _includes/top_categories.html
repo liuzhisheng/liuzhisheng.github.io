@@ -1,0 +1,12 @@
+            <h4>
+              分 类
+            </h4>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="list-unstyled">{% for cat in site.categories limit: 6 %} 
+                  <li>
+                    <a href="/categories/{{ cat[0] }}">{{ cat[0] }}({{ cat[1].size }})</a>
+                  </li>{% endfor %} 
+                </ul>
+              </div>
+            </div>

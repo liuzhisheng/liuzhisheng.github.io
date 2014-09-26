@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 你好，世界
+title: 文章详细页添加最新文章列表，但不包括本文章,hEllo
 excerpt: 很好啊
 category: WPF
 ---
