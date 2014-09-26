@@ -11,9 +11,9 @@ paginate_path: "page:num"
 # presonal config
 title: 网魂的博客
 description: 网魂的博客
-feed: http://liuzhisheng.github.io/atom.xml
+feed: /atom.xml
 
-author: 刘志胜
+author: LiuZhisheng
 
 seo: 
   keyword: 

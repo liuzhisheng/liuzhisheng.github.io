@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 文章详细页添加最新文章列表，但不包括本文章,hEllo
+keywords: WPF
+description: 很好啊
 excerpt: 很好啊
 category: WPF
 ---
