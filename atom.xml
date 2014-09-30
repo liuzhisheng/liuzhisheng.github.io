@@ -4,12 +4,379 @@
  <title>网魂的博客</title>
  <link href="http://www.stevenpan.me/atom.xml" rel="self"/>
  <link href="http://www.stevenpan.me"/>
- <updated>2014-09-26T17:04:02+08:00</updated>
+ <updated>2014-09-30T10:31:23+08:00</updated>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>PMP-基本概念（二）</title>
+   <link href="http://www.stevenpan.me/2014/09/30/pmp_concept_2.html"/>
+   <updated>2014-09-30T00:00:00+08:00</updated>
+   <id>/2014/09/30/pmp_concept_2</id>
+   <content type="html">&lt;h3&gt;一、项目生命周期&lt;/h3&gt;
+
+&lt;p&gt;项目生命周期指项目从启动到收尾所经历的一系列阶段。项目阶段通常按顺序排列，阶段的名称和数量取决于参与项目的一个或多个组织的管理与控制需要、项目本身的特征及其所在的应用领域。&lt;/p&gt;
+
+&lt;h4&gt;1、通用项目生命周期的特征&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;这图中可包含了好几个考点，别怪没提醒您^_^&lt;/strong&gt;
+&lt;img src=&quot;/images/pmp/2.1.jpg&quot; alt=&quot;通用项目生命周期的特征&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;2、项目阶段&lt;/h4&gt;
+
+&lt;p&gt;项目阶段是一组具有逻辑关系的项目活动的集合，通常以一个或多个可交付成果的完成为结束。阶段的结束点是重新评估项目活动，并变更或终止项目的一个当然时点。这个时点可称为&lt;strong&gt;阶段关口&lt;/strong&gt;、&lt;strong&gt;里程碑&lt;/strong&gt;、阶段审查、&lt;strong&gt;阶段门&lt;/strong&gt;或&lt;strong&gt;关键决策点&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;h5&gt;阶段与阶段的关系&lt;/h5&gt;
+
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;顺序关系&lt;/th&gt;
+         &lt;th&gt;交叠关系&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;td&gt;一个阶段只能在前一个阶段完成后开始。其按部就班的特点减少了项目的不确定性，但也排除了缩短项目总工期的可能性&lt;/td&gt;
+         &lt;td&gt;一个阶段在前一阶段完成前就开始。一种进度压缩技术，称为&lt;b&gt;快速跟进&lt;/b&gt;。交叠可能需要增加额外的资源来并行开展工作，增加了项目的风险&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4&gt;3、生命周期的类型&lt;/h4&gt;
+
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;&lt;/th&gt;
+         &lt;th&gt;特点&lt;/th&gt;
+         &lt;th&gt;选择条件&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;th&gt;预测型生命周期&lt;/th&gt;
+         &lt;td&gt;也称为完全计划驱动型生命周期，在项目生命周期的尽早时间，确定项目范围及交付此范围所需的时间和成本。&lt;/td&gt;
+         &lt;td&gt;充分了解拟交付的产品，有厚实的行业实践基础，或者整批一次性交付产品有利于干系人。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;迭代和增量型生命周期&lt;/th&gt;
+         &lt;td&gt;迭代方法是通过一系列重复的循环活动来开发产品，而增量方法是渐进的增加产品的功能。每次迭代结束时，将完成一个或一组可交付成果。后续迭代对这些可交付成果进行改进，也可能创造新的可交付成果。&lt;/td&gt;
+         &lt;td&gt;组织需要管理不断变化的目标和范围，需要降低项目的复杂性，或者，产品的部分交付有利于一个或多个干系人，且不会影响最终或整批可交付成果的交付。大型复杂项目通常采用迭代方式来实施。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;适应型生命周期&lt;/th&gt;
+         &lt;td&gt;也称为变更驱动方法或敏捷方法，其目的在于应对&lt;b&gt;大量变更&lt;/b&gt;，获取干系人的持续参与。适应型生命周期也包含迭代和增量的概念，但不同之处在于&lt;b&gt;迭代很快&lt;/b&gt;（通常2-4周迭代一次），而且&lt;b&gt;所需的时间和资源都是固定的&lt;/b&gt;。&lt;/td&gt;
+         &lt;td&gt;需要应对快速变化的环境，需求和范围难以事先确定，或者，能够以有利于干系人的方式定义较小的增量改进。&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4&gt;4、迭代和增量的区别&lt;/h4&gt;
+
+&lt;p&gt;迭代是从深度或细化的程度来划分的，每阶段功能得到完善、增强，适合需求不明确的项目；增量是从功能量上来划分的，每阶段完成一定的功能，增量适合需求比较明确的项目。&lt;/p&gt;
+
+&lt;h3&gt;二、五大过程组&lt;/h3&gt;
+
+&lt;h4&gt;1、五大过程组概述&lt;/h4&gt;
+
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;名称&lt;/th&gt;
+         &lt;th&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;th&gt;启动过程组&lt;/th&gt;
+         &lt;td&gt;定义一个新项目或现有项目的一个新阶段，授权开始该项目或阶段的一组过程&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;规划过程组&lt;/th&gt;
+         &lt;td&gt;明确项目范围，定义和优化目标，为实现目标制定行动方案的一组过程。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;执行过程组&lt;/th&gt;
+         &lt;td&gt;完成项目计划中确定的工作，以满足项目规范的一组过程。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;监控过程组&lt;/th&gt;
+         &lt;td&gt;包含跟踪、审查和调整项目进展与绩效，识别必要的计划变更并启动相应变更的一组过程&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;收尾过程组&lt;/th&gt;
+         &lt;td&gt;包含完结所有项目管理过程组的所有活动，正式结束项目或阶段或合同责任的一组过程。也用于正式处理项目提前结束的情形。&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4&gt;2、项目边界&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;项目边界&lt;/strong&gt;指的是一个项目或阶段从获的授权的时间点到得以完成的时间点。启动过程可以在组织、项目集或项目组合的层面上进行，因此超出了项目控制的级别。下边这张图的虚线框要搞明白了，很重要滴。
+&lt;img src=&quot;/images/pmp/2.2.jpg&quot; alt=&quot;项目边界&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;三、项目信息&lt;/h3&gt;
+
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;名称&lt;/th&gt;
+         &lt;th&gt;描述&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;th&gt;工作绩效数据&lt;/th&gt;
+         &lt;td&gt;在执行项目工作的过程中，从每个正在执行的活动中收集到的&lt;b&gt;原始观察结果和测量值&lt;/b&gt;。例如：进度活动的开始和结束日期、工作完成百分比、变更请求数量等。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;工作绩效信息&lt;/th&gt;
+         &lt;td&gt;从各控制过程中收集并结合相关背景和跨领域关系，进行整合分析而得到的工作绩效数据。例如：可交付成果的状况、变更请求的执行情况。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;th&gt;工作绩效报告&lt;/th&gt;
+         &lt;td&gt;为制定决策、提出问题、采取行动或引起关注，而汇编工作绩效信息，所形成的实物或电子项目文件。例如：状况报告、论证报告、电子报表。&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4&gt;项目数据、信息和报告流向&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pmp/2.3.jpg&quot; alt=&quot;项目数据、信息和报告流向&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;四、知识领域&lt;/h3&gt;
+
+&lt;h4&gt;1、知识领域概览&lt;/h4&gt;
+
+&lt;p&gt;在PMBOK第五版中，47个项目管理过程被进一步归组于十大知识领域。知识领域是一套完整的概念、术语和活动的集合，它们联合构成某个专业领域、项目管理领域或其他特定领域。这十大知识领域在大部分时间适用于大部分项目。在具体的项目中，项目团队应该根据需要使用这十大知识领域和其他知识领域。
+&lt;img src=&quot;/images/pmp/2.5.png&quot; alt=&quot;十大知识领域概览&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;2、项目管理过程与知识领域&lt;/h4&gt;
+
+&lt;p&gt;这是PMBOK第五版中的一个图表，很重要。最好等学完了十大知识领域，再回过头来看看它。
+&lt;img src=&quot;/images/pmp/2.4.jpg&quot; alt=&quot;项目管理过程组与知识领域&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;本文中的部分图片来源于网络，如有侵权，请告知。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PMP-基本概念（一）</title>
+   <link href="http://www.stevenpan.me/2014/09/29/pmp_concept_1.html"/>
+   <updated>2014-09-29T00:00:00+08:00</updated>
+   <id>/2014/09/29/pmp_concept_1</id>
+   <content type="html">&lt;h3&gt;一、项目、项目集、项目组合&lt;/h3&gt;
+
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;项目&lt;/th&gt;
+         &lt;th&gt;项目集&lt;/th&gt;
+         &lt;th&gt;项目组合&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;td&gt;项目是为创造独特的产品、服务或成果而进行的临时性工作。&lt;/td&gt;
+         &lt;td&gt;项目集是一组相互关联且被协调管理的项目、子项目集和项目集活动，以便获得分别管理所无法获得的利益。&lt;/td&gt;
+         &lt;td&gt;项目组合是指为了实现战略目标而组合在一起管理的项目、项目集、子项目组合和运营工作。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td&gt;&lt;ul&gt;&lt;li&gt;独特性&lt;/li&gt;&lt;li&gt;临时性（指项目有明确的起点和终点）&lt;/li&gt;&lt;ul&gt;&lt;/td&gt;
+         &lt;td&gt;&lt;ul&gt;&lt;li&gt;多项目&lt;/li&gt;&lt;li&gt;相关性&lt;/li&gt;&lt;li&gt;目的性&lt;/li&gt;&lt;ul&gt;&lt;/td&gt;
+         &lt;td&gt;&lt;ul&gt;&lt;li&gt;战略性&lt;/li&gt;&lt;li&gt;混合型&lt;/li&gt;&lt;li&gt;优先性&lt;/li&gt;&lt;ul&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;在PMBOK中列出了更为详细的比较：
+&lt;img src=&quot;/images/pmp/1.1.png&quot; alt=&quot;项目、项目集与项目组合管理之比较&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;二、项目管理办公室（PMO）与项目经理（PM）&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;项目管理办公室（Project Management Office，PMO）是对于项目相关治理过程进行标准化，并促进资源、方法论、工具和技术共享的一个组织部门&lt;/strong&gt;。可分为以下三种类型：
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;PMO类型&lt;/th&gt;
+         &lt;th&gt;控制程度&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;td&gt;支持性&lt;/td&gt;
+         &lt;td&gt;低&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td&gt;控制性&lt;/td&gt;
+         &lt;td&gt;中等&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td&gt;指令性&lt;/td&gt;
+         &lt;td&gt;高&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PMO的一个主要职能是向项目经理提供支持&lt;/strong&gt;，包括（但不限于，这是多么好的一个词啊）：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;管理共享资源&lt;/li&gt;
+&lt;li&gt;提供最佳实践、方法论、标准、程序、模板等组织过程资产&lt;/li&gt;
+&lt;li&gt;指导、辅导、培训、监督项目的执行&lt;/li&gt;
+&lt;li&gt;审计项目管理&lt;/li&gt;
+&lt;li&gt;协调跨项目的沟通&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;项目管理办公室和项目经理的角色差异&lt;/strong&gt;
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+   &lt;thead&gt;
+      &lt;tr&gt;
+         &lt;th&gt;PMO&lt;/th&gt;
+         &lt;th&gt;PM&lt;/th&gt;
+      &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+      &lt;tr&gt;
+         &lt;td&gt;关注项目集范围变更，这些变更可被视为能促进业务目标实现的潜在机会&lt;/td&gt;
+         &lt;td&gt;关注特定的项目目标&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td&gt;负责优化利用所有项目共享的组织资源&lt;/td&gt;
+         &lt;td&gt;控制分配给本项目的资源&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td&gt;对方法论、标准、整体风险／机会、测量指标和项目间的依赖关系进行管理&lt;/td&gt;
+         &lt;td&gt;管理单个项目的制约因素&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;三、组织结构&lt;/h3&gt;
+
+&lt;p&gt;组织结构是一种事业环境因素，它可能影响资源的可用性和项目的执行方式。组织结构的类型包括职能型、项目型及位于这两者之间的各种矩阵型结构。&lt;strong&gt;想想自己所在的组织是那种结构呢&lt;/strong&gt;？&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;组织结构对项目的影响&lt;/strong&gt;
+&lt;img src=&quot;/images/pmp/1.2.png&quot; alt=&quot;组织结构对项目的影响&quot;&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;组织结构的优缺点&lt;/strong&gt;
+&lt;table class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+     &lt;th&gt;&lt;/th&gt;
+     &lt;th&gt;职能型组织&lt;/th&gt;
+     &lt;th&gt;矩阵型组织&lt;/th&gt;
+     &lt;th&gt;项目型组织&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+     &lt;td&gt;优点&lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;资源集中&lt;/li&gt;
+            &lt;li&gt;资源专业化使用&lt;/li&gt;
+            &lt;li&gt;项目团队只有一个上级，管理简单&lt;/li&gt;
+            &lt;li&gt;单一晋升轨道&lt;/li&gt;
+            &lt;li&gt;有利于团队成员在专业领域发展个人能力&lt;/li&gt;
+            &lt;li&gt;项目成员有“家”&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;项目目标明确，职能与任务很好的结合在一起&lt;/li&gt;
+            &lt;li&gt;项目经理对资源的控制相比职能型有提高&lt;/li&gt;
+            &lt;li&gt;能有效利用和共享公司的资源&lt;/li&gt;
+            &lt;li&gt;信息流丰富，促进学习和交流&lt;/li&gt;
+            &lt;li&gt;注重客户&lt;/li&gt;
+            &lt;li&gt;职能部门是项目成员的“家”&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;项目经理拥有很大自主权和职权，有充分的权利控制资源&lt;/li&gt;
+            &lt;li&gt;沟通效率高&lt;/li&gt;
+            &lt;li&gt;决策速度快&lt;/li&gt;
+            &lt;li&gt;目标一致，团队协作能力强&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+     &lt;td&gt;缺点&lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;更强调职能和技术专业，而不是项目目标&lt;/li&gt;
+            &lt;li&gt;反应缓慢&lt;/li&gt;
+            &lt;li&gt;资源的优先权容易发生冲突&lt;/li&gt;
+            &lt;li&gt;不同专业之间沟通困难&lt;/li&gt;
+            &lt;li&gt;职能分割使客户利益受损&lt;/li&gt;
+            &lt;li&gt;项目成员积极性不高&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;组织结构复杂，多个项目同时实施时，容易产生冲突&lt;/li&gt;
+            &lt;li&gt;有两个“老板”，双重汇报&lt;/li&gt;
+            &lt;li&gt;项目与职能部门间容易发生冲突&lt;/li&gt;
+            &lt;li&gt;容易出现信息混乱，涉及问题多时延长决策时间&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;项目结束后，项目成员无“家”可归&lt;/li&gt;
+            &lt;li&gt;资源利用率低&lt;/li&gt;
+            &lt;li&gt;项目间缺乏交流与共享&lt;/li&gt;
+            &lt;li&gt;容易出现信息混乱，涉及问题多时延长决策时间&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+     &lt;td&gt;备注&lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;适用于公司的内部项目&lt;/li&gt;
+            &lt;li&gt;不适用于时间限制性强或对变化快速响应的项目&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;组织有效，但不易操作&lt;/li&gt;
+            &lt;li&gt;在PMP考试中，如果题目没有说明组织类型，就可以假定项目是在矩阵组织中实施的&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+     &lt;td&gt;
+        &lt;ul&gt;
+            &lt;li&gt;适用于价值高、期限长的大项目&lt;/li&gt;
+            &lt;li&gt;不适用于规模小的企业&lt;/li&gt;
+        &lt;ul&gt;
+     &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;四、组织过程资产和事业环境因素&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;组织过程资产&lt;/strong&gt;和&lt;strong&gt;事业环境因素&lt;/strong&gt;估计是PMBOK中出现频率最高的词汇，它们可是大多数过程的输入和输出。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;组织过程资产&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;组织过程资产包括任何或全部与过程相关的资产，可来自任何或所有参与项目的组织，用于帮助项目成功。这些过程资产包括执行组织所持有并使用的正式和非正式的计划、流程、政策、程序和知识库。还包括组织的知识库，如经验教训和历史信息。&lt;/p&gt;
+
+&lt;p&gt;分为以下两大类：（1）流程与程序；（2）共享知识库。&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;事业环境因素&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;事业环境因素是指&lt;strong&gt;项目团队不能控制的&lt;/strong&gt;，将对项目产生影响、限制或指令作用的各种条件。事业环境因素是大多数规划过程的输入，可能提高或限制项目管理的灵活性，并可能对项目结果产生积极或消极的影响。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  
 </feed>
